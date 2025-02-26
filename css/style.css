@@ -74,6 +74,23 @@ header{
     width: 100%;
 }
 
+/* operazioni */
+
+.card{
+    max-width: 100%;
+    position: relative;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.img-text{
+
+}
+
+/* fine operazioni */
+
 /* fine piano business */
 
 /* utility */
@@ -104,6 +121,10 @@ li{
 
 .display-flex{
     display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 .justify-between{
@@ -144,7 +165,7 @@ li{
 }
 
 .border-black{
-    border: 3px solid black;
+    border: 2px solid black;
     width: 40%;
 }
 
