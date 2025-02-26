@@ -34,16 +34,17 @@ header{
 }
 
 .jumbo-container{
-    max-width: 1200px;
-    height: 600px;
+    max-width: 1000px;
+    padding: 20px;
     margin: 0 auto;
     display: flex;
 }
 
-.box-jumbo{
-    width: 80%;
-    height: 500px;
+.jumbo-img{
+    width: 800px;
 }
+
+/* fine jumbotron */
 
 /* piano business */
 
@@ -62,6 +63,10 @@ li{
 
 .display-flex{
     display: flex;
+}
+
+.display-block{
+    
 }
 
 .gap40{
