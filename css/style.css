@@ -34,24 +34,14 @@ header{
 }
 
 .jumbo-container{
-    max-width: 800px;
+    max-width: 1200px;
     padding: 20px;
     margin: 0 auto;
 }
 
 .jumbo-content{
-    max-width: 800px;
+    max-width: 80%;
     display: flex;
-}
-
-.col-30{
-    width: 30%;
-    flex-direction: row;
-}
-
-.col-70{
-    width: 70%;
-    flex-direction: row;
 }
 
 .jumbo-img{
@@ -64,12 +54,49 @@ header{
 
 .business-container{
     max-width: 1000px;
-    height: 2000px;
+    height: 100%;
+    padding: 30px 10px;
+    margin: 0 auto;
+}
+
+.radio-button{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 4px solid blue;
+}
+
+.intestazione-col{
+    padding: 10px 0px;
+}
+
+.col-60 img{
+    width: 100%;
 }
 
 /* fine piano business */
 
 /* utility */
+
+.col-30{
+    width: 30%;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.col-100{
+    width: 100%;
+}
 
 li{
     list-style: none;
@@ -79,21 +106,41 @@ li{
     display: flex;
 }
 
+.justify-between{
+    justify-content: space-between;
+}
+
 .gap40{
     gap: 40px;
 }
 
+.gap100{
+    gap: 100px;
+}
+
+.padding-r30{
+    padding-right: 30px;
+}
+
+.padding-l20{
+    padding-left: 20px;
+}
+
 .button{
-    max-width: 100%;
-    padding: 10px 20px;
+    max-width: 90%;
+    padding: 10px 10px;
 }
 
 .item-center{
     align-items: center;
 }
 
-.border-black{
-    border: 2px solid black;
+.text-center{
+    text-align: center;
+}
+
+.border-grey{
+    border: 2px solid grey;
     height: 100%;
 }
 
@@ -102,7 +149,7 @@ li{
 }
 
 .bg-red{
-    background-color: red;
+    background-color: darkred;
 }
 
 .bg-grey{
@@ -117,4 +164,21 @@ li{
     background-color: blue;
 }
 
+.mini-border{
+    height: 2px;
+    width: 20%;
+    color: black;
+}
+
+.margin-top{
+    margin-top: 100px;
+}
+
 /* fine utility */
+
+/* footer */
+
+footer{
+    background-color: black;
+    height: 5%;
+}
