@@ -3,3 +3,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+
+header{
+    background-color: white;
+}
+
+.head-container{
+    max-width: 1800px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.box-logo{
+    width: 400px;
+    height: 300px;
+}
+
+.box-lista{
+    width: 400px;
+    height: 300px;
+}
+
+/* fine header */
+
+/* jumbotron */
+
+.jumbo-container{
+    max-width: 1600px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.box-jumbo{
+    width: 100%;
+    height: 300px;
+}
+
+/* utility */
+
+.align-center{
+    align-items: center;
+}
+
+.border-black{
+    border: 2px solid black;
+    height: 100%;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+/* fine utility */
