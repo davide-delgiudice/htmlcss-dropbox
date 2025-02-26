@@ -141,7 +141,11 @@ li{
 
 .border-grey{
     border: 2px solid grey;
-    height: 100%;
+}
+
+.border-black{
+    border: 3px solid black;
+    width: 40%;
 }
 
 .color-white{
@@ -163,6 +167,8 @@ li{
 .bg-blue{
     background-color: blue;
 }
+
+.b
 
 .mini-border{
     height: 2px;
