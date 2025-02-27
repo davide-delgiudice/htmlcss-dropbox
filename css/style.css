@@ -67,22 +67,22 @@ header{
     border: 4px solid blue;
 }
 
-/* colonne */
-
-.intestazione-col{
-    padding: 10px 0px;
-}
+/* columns */
 
 .display-columns{
     display: flex;
     justify-content: space-between;
 }
 
+.intestazione-col{
+    padding: 10px 0px;
+}
+
 .button-text{
     font-size: small;
 }
 
-/* fine colonne */
+/* fine columns */
 
 /* rettangolo team */
 
@@ -92,7 +92,7 @@ header{
 
 /* fine rettangolo */
 
-/* operazioni */
+/* cards */
 
 .card{
     max-width: 100%;
@@ -107,7 +107,7 @@ header{
     color: black;
 }
 
-/* fine operazioni */
+/* fine cards */
 
 /* fine piano business */
 
@@ -181,12 +181,20 @@ li{
     padding-top: 40px;
 }
 
+.padding-r20{
+    padding-right: 20px;
+}
+
 .padding-r30{
     padding-right: 30px;
 }
 
 .padding-l20{
     padding-left: 20px;
+}
+
+.padding-b50{
+    padding-bottom: 50px;
 }
 
 .button{
@@ -198,6 +206,10 @@ li{
     align-items: center;
 }
 
+.text-bold{
+    font-weight:700;
+}
+
 .text-center{
     text-align: center;
 }
@@ -207,7 +219,7 @@ li{
 }
 
 .border-grey{
-    border: 2px solid grey;
+    border: 1px solid grey;
 }
 
 .border-black{
@@ -217,10 +229,6 @@ li{
 
 .color-white{
     color: white;
-}
-
-.bg-red{
-    background-color: darkred;
 }
 
 .bg-grey{
