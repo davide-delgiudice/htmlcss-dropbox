@@ -8,10 +8,17 @@ body{
     font-family: sans-serif;
 }
 
+main{
+    padding-top: 60px;
+}
+
 /* header */
 
 header{
     background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .head-container{
