@@ -54,7 +54,7 @@ header{
 /* piano business */
 
 .business-container{
-    max-width: 1000px;
+    max-width: 800px;
     height: 100%;
     padding: 30px 10px;
     margin: 0 auto;
@@ -67,13 +67,30 @@ header{
     border: 4px solid blue;
 }
 
+/* colonne */
+
 .intestazione-col{
     padding: 10px 0px;
 }
 
+.display-columns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-text{
+    font-size: small;
+}
+
+/* fine colonne */
+
+/* rettangolo team */
+
 .col-60 img{
     width: 100%;
 }
+
+/* fine rettangolo */
 
 /* operazioni */
 
@@ -132,6 +149,10 @@ li{
     flex-wrap: wrap;
 }
 
+.flex-end{
+    justify-content: flex-end;
+}
+
 .justify-between{
     justify-content: space-between;
 }
@@ -142,6 +163,22 @@ li{
 
 .gap50{
     gap: 50px;
+}
+
+.padding-t10{
+    padding-top: 10px;
+}
+
+.padding-t20{
+    padding-top: 20px;
+}
+
+.padding-t30{
+    padding-top: 30px;
+}
+
+.padding-t40{
+    padding-top: 40px;
 }
 
 .padding-r30{
@@ -199,7 +236,6 @@ li{
 }
 
 .mini-border{
-    height: 2px;
     width: 20%;
     color: grey;
 }
