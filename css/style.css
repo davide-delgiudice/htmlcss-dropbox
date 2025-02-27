@@ -135,8 +135,8 @@ li{
     gap: 40px;
 }
 
-.gap100{
-    gap: 100px;
+.gap50{
+    gap: 50px;
 }
 
 .padding-r30{
@@ -189,12 +189,10 @@ li{
     background-color: blue;
 }
 
-.b
-
 .mini-border{
     height: 2px;
     width: 20%;
-    color: black;
+    color: grey;
 }
 
 .margin-top{
