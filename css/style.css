@@ -21,26 +21,27 @@ header{
     display: flex;
 }
 
-.head-col{
-    width: 50%;
+.pad-bt-head{
+    padding: 6px 12px;
 }
 
 /* fine header */
 
 /* jumbotron */
 
-#h1-testo{
-    font-size: 50px;
-}
-
 .jumbo-container{
-    max-width: 1200px;
-    padding: 20px;
+    max-width: 1000px;
+    padding: 20px 0px 0px 0px;
     margin: 0 auto;
 }
 
+#h1-testo{
+    font-size: 50px;
+    padding-bottom: 50px;
+    font-weight: 900;
+}
+
 .jumbo-content{
-    max-width: 80%;
     display: flex;
 }
 
@@ -103,6 +104,10 @@ header{
     width: 40%;
 }
 
+.col-50{
+    width: 50%;
+}
+
 .col-60{
     width: 60%;
 }
@@ -149,7 +154,7 @@ li{
 
 .button{
     max-width: 90%;
-    padding: 10px 10px;
+    padding: 6px 12px;
 }
 
 .item-center{
@@ -158,6 +163,10 @@ li{
 
 .text-center{
     text-align: center;
+}
+
+.text-right{
+    text-align: right;
 }
 
 .border-grey{
