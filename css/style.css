@@ -28,17 +28,13 @@ header{
     display: flex;
 }
 
-.pad-bt-head{
-    padding: 6px 12px;
-}
-
 /* fine header */
 
 /* jumbotron */
 
 .jumbo-container{
     max-width: 1000px;
-    padding: 20px 0px 0px 0px;
+    padding: 80px 0px 0px 0px;
     margin: 0 auto;
 }
 
@@ -78,13 +74,15 @@ header{
     padding: 10px 0px;
 }
 
-.small-text{
-    font-size: 13px;
-}
-
 /* fine columns */
 
 /* rettangolo team */
+
+.rettangolo-container{
+    display: flex;
+    padding: 30px 20px;
+    margin: 0 auto;
+}
 
 .col-60 img{
     width: 100%;
@@ -150,8 +148,8 @@ li{
     display: flex;
 }
 
-.display-block{
-    display: block;
+.display-ib{
+    display: inline-block;
 }
 
 .flex-wrap{
@@ -194,6 +192,18 @@ li{
     padding-top: 40px;
 }
 
+.padding-t50{
+    padding-top: 50px;
+}
+
+.padding-t100{
+    padding-top: 100px;
+}
+
+.padding-t160{
+    padding-top: 160px;
+}
+
 .padding-r20{
     padding-right: 20px;
 }
@@ -206,8 +216,20 @@ li{
     padding-left: 20px;
 }
 
+.padding-l30{
+    padding-left: 30px;
+}
+
+.padding-b30{
+    padding-bottom: 30px;
+}
+
 .padding-b50{
     padding-bottom: 50px;
+}
+
+.padding-b100{
+    padding-bottom: 100px;
 }
 
 .item-center{
@@ -226,9 +248,33 @@ li{
     text-align: right;
 }
 
+.text-end{
+    text-align: end;
+}
+
+.text-10{
+    font-size: 10px;
+}
+
+.text-13{
+    font-size: 13px;
+}
+
+.text-35{
+    font-size: 35px;
+}
+
+.text-50{
+    font-size: 50px;
+}
+
 .width-1000{
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.width-100{
+    max-width: 100%;
 }
 
 .border-grey{
@@ -242,6 +288,10 @@ li{
 
 .color-white{
     color: white;
+}
+
+.color-blue{
+    color: blue;
 }
 
 .bg-grey{
@@ -261,8 +311,8 @@ li{
     color: grey;
 }
 
-.margin-top{
-    margin-top: 100px;
+.margin-t50{
+    margin-top: 50px;
 }
 
 /* fine utility */
